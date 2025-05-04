@@ -36,6 +36,10 @@ function Login() {
     <input name="email" placeholder="Email" onChange={handleChange} />
     <input name="password" type="password" placeholder="Password" onChange={handleChange} />
     <button>Login</button>
+    {msg && <p>{msg}</p>}
+    <p>
+      Don't have an account? <a href="/register">Register</a>
+    </p>
   </form>
 </div>
 

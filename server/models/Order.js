@@ -10,14 +10,12 @@ const orderSchema = new mongoose.Schema({
     ref: "User",
   },
   measurements: {
-    fabric: String,
-    design: String,
     shoulder: String,
     neck: String,
-    collar: String,
     chest: String,
     waist: String,
     sleeve: String,
+    collar: String,
   },
  // URL or file name
   status: {
@@ -25,6 +23,14 @@ const orderSchema = new mongoose.Schema({
     enum: ["Pending", "In Progress", "Completed"],
     default: "Pending",
   },
+  paid: {
+    type: Boolean,
+    default: false
+  },
+  fabric: {
+    type: String,
+    required: true,
+  },  
 }, {
   timestamps: true
 });

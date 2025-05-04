@@ -15,6 +15,9 @@ app.use("/api/auth", authRoutes);
 const orderRoutes = require("./routes/order");
 app.use("/api/orders", orderRoutes);
 
+const paymentRoutes = require("./routes/payment");
+app.use("/api/payment", paymentRoutes);
+
 app.use("/uploads", express.static("uploads"));
 
 mongoose.connect(process.env.MONGO_URI)
