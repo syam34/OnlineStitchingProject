@@ -64,7 +64,7 @@ An AI-assisted web application for customers to upload their dress designs and b
 - Auto suggestions for tailors based on rating and availability
 
  # 👨‍💻 Author
-- Syamalarao Bellani
+- Syamalarao Bellani – Full Stack Developer, Project Author
 - LinkedIn : https://www.linkedin.com/in/bellani-syamalarao-314b162bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 
